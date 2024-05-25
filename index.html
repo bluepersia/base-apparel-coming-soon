@@ -20,18 +20,26 @@
 </head>
 <body>
 
-  We're coming soon
 
-  Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
+  <div class="cmp">
+    <header class="cmp__header">
+      <img src="./images/logo.svg" alt="Logo" class="cmp__logo"/>
+    </header>
+    <img src="./images/hero-mobile.jpg" alt="Young woman wearing Base Apparel" class="cmp__img cmp__img--mobile"/>
+    <img src="./images/hero-desktop.jpg" alt="Young woman wearing Base Apparel" class="cmp__img cmp__img--desktop"/>
+    <main class="cmp__main">
+      <h1 class="cmp__title"><span>We're <span>coming soon</span></h1>
+      <p class="cmp__body">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
 
-  Email Address
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+      <form class="cmp__form">
+        <div class="cmp__input-container">
+          <input type="text" name="email" class="cmp__input"/>
+          <p class="cmp__input-error">Please provide a valid email</p>
+          <img src="./images/icon-error.svg" alt="Error icon" class="cmp__input-error-icon"/>
+        </div>
+        <button><img src="./images/icon-arrow.svg" alt="Arrow" class="cmp__form-btn"/></button>
+      </form>
+    </main>
+  </div>
 </body>
 </html>
