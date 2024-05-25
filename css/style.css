@@ -157,14 +157,22 @@ html {
 
  .cmp__input-error {
     padding-left: 1.6em;
+    opacity: 0%;
+    pointer-events: none;
  }
 
  .cmp__input-error-icon {
-    right: 5em;
+    right: 4em;
     top: 50%;
     transform: translateY(-50%);
+    opacity: 0%;
+    pointer-events: none;
  }
 
+ .cmp__input-container.invalid .cmp__input-error,  .cmp__input-container.invalid .cmp__input-error-icon
+ {
+    opacity: 100%;
+ }
 
  .cmp__form-btn 
  {
@@ -224,3 +232,5 @@ html {
         max-width: 610px;
     }
  }
+
+
